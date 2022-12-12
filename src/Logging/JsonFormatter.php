@@ -39,7 +39,7 @@ class JsonFormatter extends BaseJsonFormatter
             'log_time'  => $record['datetime']->format('Y-m-d H:i:s'),
             'message'   => strlen($record['message']) < self::EXCEPTION_LEN ? $record['message'] : 'exception', //捕获异常情况日志logTag
         ];
-        unset($record['message']);
+        unset($record['message'], $record['datetime']);
         return array_merge($newRecord, $record);
     }
 }
