@@ -1,12 +1,12 @@
 
 {
-    "name": "hailizhiyun/utils",
+    "name": "haili/utils",
     "description": "封装常用方法",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "hailizhiyun",
+            "name": "haili",
             "email": "2850132730@qq.com"
         }
     ],
